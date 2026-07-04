@@ -12,31 +12,31 @@ interface ModuleCard {
 const MOCK_DATA: ModuleCard[] = [
     {
         id: '1',
-        clientName: 'Acme Corp',
-        maintainedBy: 'Team Alpha',
+        clientName: 'Rivermont',
+        maintainedBy: 'Group A',
         hosting: 'AWS',
-        frequency: 'Daily'
+        frequency: 'BiWeekly'
     },
     {
         id: '2',
-        clientName: 'Globex Inc',
-        maintainedBy: 'Team Beta',
+        clientName: 'New Story',
+        maintainedBy: 'Group B',
         hosting: 'GCP',
         frequency: 'Weekly'
     },
     {
         id: '3',
-        clientName: 'Soylent Corp',
-        maintainedBy: 'Team Gamma',
+        clientName: 'Greentree Schools',
+        maintainedBy: 'Group C',
         hosting: 'Azure',
         frequency: 'Monthly'
     },
     {
         id: '4',
-        clientName: 'Initech',
-        maintainedBy: 'Team Delta',
+        clientName: 'Guest Global',
+        maintainedBy: 'Group D',
         hosting: 'On-Premise',
-        frequency: 'Daily'
+        frequency: 'BiWeekly'
     }
 ];
 

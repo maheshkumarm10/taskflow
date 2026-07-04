@@ -58,7 +58,7 @@ export default function AllTasks() {
     return (
         <Layout title="All Tasks">
             <div className="mb-8 flex justify-between items-center">
-                <p className="text-gray-600 mt-2">View all tasks from everyone.</p>
+                <p className="text-white mt-2">View all tasks from everyone.</p>
                 <div className="flex gap-4">
                     <div className="relative">
                         <input
@@ -107,7 +107,7 @@ export default function AllTasks() {
                                 <tr>
                                     <th className="px-6 py-4 font-semibold text-gray-700">Task Title</th>
                                     <th className="px-6 py-4 font-semibold text-gray-700">Assigned To</th>
-                                    <th className="px-6 py-4 font-semibold text-gray-700">Arena Task URL</th>
+                                    <th className="px-6 py-4 font-semibold text-gray-700">Task URL</th>
                                     <th className="px-6 py-4 font-semibold text-gray-700">Estimated Time</th>
                                     <th className="px-6 py-4 font-semibold text-gray-700">Status</th>
                                 </tr>

@@ -134,7 +134,7 @@ export default function MyTasks() {
     return (
         <Layout title="My Tasks">
             <div className="mb-8 flex justify-between items-center">
-                <p className="text-gray-600 mt-2">Manage your personal tasks here.</p>
+                <p className="text-white mt-2">Manage your personal tasks here.</p>
                 <button
                     onClick={() => {
                         setEditingTask(null);
@@ -158,7 +158,7 @@ export default function MyTasks() {
                         <thead className="bg-gray-50 border-b border-gray-100">
                             <tr>
                                 <th className="px-6 py-4 font-semibold text-gray-700">Task Title</th>
-                                <th className="px-6 py-4 font-semibold text-gray-700">Arena Task URL</th>
+                                <th className="px-6 py-4 font-semibold text-gray-700">Task URL</th>
                                 <th className="px-6 py-4 font-semibold text-gray-700">Estimated Time</th>
                                 <th className="px-6 py-4 font-semibold text-gray-700">Status</th>
                                 <th className="px-6 py-4 font-semibold text-gray-700 text-right">Actions</th>
@@ -253,7 +253,7 @@ export default function MyTasks() {
                             </div>
 
                             <div>
-                                <label className="block text-sm font-medium text-gray-700 mb-1">Arena Task URL</label>
+                                <label className="block text-sm font-medium text-gray-700 mb-1">Task URL</label>
                                 <input
                                     type="url"
                                     value={arenaTaskUrl}
