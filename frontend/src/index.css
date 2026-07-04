@@ -6,8 +6,17 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Brand palette (TaskFlow) */
+  --brand-50: #eef2ff;
+  --brand-100: #e0e7ff;
+  --brand-500: #4f46e5; /* indigo */
+  --brand-600: #4338ca;
+  --brand-700: #3730a3;
+  --brand-cyan: #06b6d4;
+  --brand-accent: #fb7185;
+
+  color: rgba(255, 255, 255, 0.92);
+  background-color: #0f172a; /* deep slate */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -70,4 +79,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* Reusable branded helpers (used alongside Tailwind) */
+.brand-gradient {
+  background: linear-gradient(135deg, var(--brand-500), var(--brand-cyan));
+}
+.brand-btn {
+  background: linear-gradient(90deg, var(--brand-500), var(--brand-cyan));
+  color: white;
+  box-shadow: 0 6px 18px rgba(79,70,229,0.18);
+}
+.card-smooth {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
+  border: 1px solid rgba(255,255,255,0.04);
 }

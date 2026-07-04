@@ -7,11 +7,14 @@ export default function Sidebar() {
     return (
         <aside className="w-64 bg-white h-screen shadow-lg fixed left-0 top-0 flex flex-col z-10">
             <div className="p-6 border-b border-gray-100">
-                <Link to="/dashboard" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-                    <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-blue-200 shadow-lg">
-                        T
+                <Link to="/dashboard" className="flex items-center gap-3 hover:opacity-90 transition-opacity">
+                    <div className="w-12 h-12 brand-gradient rounded-2xl flex items-center justify-center text-white font-extrabold text-xl shadow-lg">
+                        TF
                     </div>
-                    <span className="text-xl font-bold text-gray-800">TaskFlow</span>
+                    <div>
+                        <div className="text-xl font-bold text-gray-800">TaskFlow</div>
+                        <div className="text-xs text-gray-500">Focus · Flow · Finish</div>
+                    </div>
                 </Link>
             </div>
 
